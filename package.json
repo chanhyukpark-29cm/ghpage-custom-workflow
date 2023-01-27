@@ -1,0 +1,15 @@
+{
+  "name": "ghpage-custom-workflow",
+  "homepage": "https://chanhyukpark-29cm.github.io/ghpage-custom-workflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-29cm:chanhyukpark-29cm/ghpage-custom-workflow.git",
+  "author": "chanhyukpark-29cm <chanhyuk-tech@29cm.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
