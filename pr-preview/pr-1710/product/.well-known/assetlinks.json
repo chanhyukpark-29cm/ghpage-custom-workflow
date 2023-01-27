@@ -1,0 +1,26 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.the29cm.app29cm",
+      "sha256_cert_fingerprints": [
+        "0A:31:A8:68:47:72:2E:B5:34:A9:11:E3:48:74:13:89:76:95:12:45:6A:F7:B0:B9:96:B6:4C:0D:C5:61:00:46"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.the29cm.app29cm.inhouse",
+      "sha256_cert_fingerprints": [
+        "0A:31:A8:68:47:72:2E:B5:34:A9:11:E3:48:74:13:89:76:95:12:45:6A:F7:B0:B9:96:B6:4C:0D:C5:61:00:46"
+      ]
+    }
+  }
+]

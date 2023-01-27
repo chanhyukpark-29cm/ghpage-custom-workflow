@@ -1,0 +1,24 @@
+{
+  "applinks": {
+    "apps": [
+      
+    ],
+    "details": [
+      {
+        "appIDs": [
+          "323Z55V788.kr.co.29cm.App29CM"
+        ],
+        "components": [
+          {
+            "/": "/catalog/*",
+            "comment": "Available from 5.48.0(640)"
+          },
+          {
+            "/": "/booking/*",
+            "comment": "Available from 5.56.0 (680)"
+          }
+        ]
+      }
+    ]
+  }
+}
