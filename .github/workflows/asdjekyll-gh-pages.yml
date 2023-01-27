@@ -22,18 +22,15 @@ concurrency:
 
 jobs:
   # Build job
-  # build:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v3
-  #     - name: Build with Jekyll
-  #       uses: actions/jekyll-build-pages@v1
-  #       with:
-  #         source: ./
-  #         destination: ./_site
-  #     - name: Upload artifact
-  #       uses: actions/upload-pages-artifact@v1
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "."
 
   # Deployment job
   deploy:
